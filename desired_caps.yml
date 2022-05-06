@@ -1,0 +1,11 @@
+platformName: "Android"
+deviceName: "Redmi Note 9 Pro"
+platformVersion: "10.0.0"
+appPackage: "com.tencent.mm"
+appActivity: ".ui.LauncherUI"
+automationName: "uiautomator2"
+chromedriverExecutable: "/Users/luomingjie/chromedriver/chromedriver"
+noReset: True
+recreateChromeDriverSessions: True
+chromeOptions:
+  androidProcess: com.tencent.mm:appbrand0
